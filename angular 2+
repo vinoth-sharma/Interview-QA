@@ -1,0 +1,18 @@
+1) can we use ngIf/ngFor without asterisk(*)?
+   <p *ngIf="condition">
+      Our heroes are true!
+   </p>
+---->angular converts * into template tag, like given below:
+   <ng-template  [ngIf]="condition">
+   <p>
+      Our heroes are true!
+   </p>
+   </ng-template>
+          (or)
+  <template [ngIf]="condition">
+    <p>
+      Our heroes are true!
+    </p>
+  </template>
+
+
