@@ -1,3 +1,25 @@
 1) how to find duplicated in an array list
    solution : Arr = [11,11,11,2,3,4,3]
               Arr.filter((element,i)=>Arr.indexOf(element) != i)
+
+2) Arrow Func	No binding of ''this"	"// ES5
+var obj = {
+  id: 42,
+  counter: function counter() {
+    setTimeout(function() {
+      console.log(this.id);
+    }.bind(this), 1000);
+  }
+};"	"// ES6
+var obj = {
+  id: 42,
+  counter: function counter() {
+    setTimeout(() => {
+      console.log(this.id);
+    }, 1000);
+  }
+};"
+Objects are the basic building blocks in Javascript. There is one special object available in Javascript, “this” object
+
+ “window” object is the global object in case of browser and in Node.JS environment, a special object “global” will be the value of “this”
+
