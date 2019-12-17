@@ -23,3 +23,4 @@ Objects are the basic building blocks in Javascript. There is one special object
 
  “window” object is the global object in case of browser and in Node.JS environment, a special object “global” will be the value of “this”
 
+3) we cant use Break,continue inside [].forEach.
