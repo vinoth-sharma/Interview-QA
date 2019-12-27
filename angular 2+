@@ -15,4 +15,5 @@
     </p>
   </template>
 
+2) tree shaking while build - angular removes unused modules/comp from bundle
 
