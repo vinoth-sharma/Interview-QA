@@ -35,3 +35,8 @@ Objects are the basic building blocks in Javascript. There is one special object
    for(let i = 0; i < array.length; i++) {
        callback(array[i]);
     }
+
+4) we have contacts list with key values pairs. user needs to create an array holds seggregated contacts in alphabetical       order.
+   eg: Contacts = [{ name : "vinoth sharma", number : 675345245 },...]
+   
+   need to create Array of objects with title,contacts . eg : [{title : "a" ,contacts:[]},...]
