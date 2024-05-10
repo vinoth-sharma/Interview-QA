@@ -2,6 +2,7 @@
    solution : Arr = [11,11,11,2,3,4,3]
               Arr.filter((element,i)=>Arr.indexOf(element) != i)
 
+
 2) Arrow Func	No binding of ''this"	"// ES5
 var obj = {
   id: 42,
